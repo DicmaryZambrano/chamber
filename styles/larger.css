@@ -1,0 +1,263 @@
+@media screen and (min-width: 900px) {
+
+    #home {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 15px
+    }
+
+    #thanks,
+    #join-form,
+    #directory,
+    #discover-wrap,
+    #home {
+        margin: 5rem
+    }
+
+    .logo-link {
+        margin: 0 auto
+    }
+
+    #banner-container {
+        grid-column: 1/4
+    }
+
+    .parallax {
+        height: 500px;
+    }
+
+    .banner {
+        padding: 50px;
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0.905);
+        max-width: 900px;
+        width: 100%;
+        height: auto;
+
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 2rem;
+    }
+
+    .events {
+        grid-column: 1/4;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 2rem
+    }
+
+    .events h2 {
+        grid-column: 1/4
+    }
+
+    .darken {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.359)
+    }
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(90deg, rgba(0, 0, 0, 0.9) 20%, rgba(0, 0, 0, 0) 80%)
+    }
+
+    #hero-msg {
+        position: absolute;
+        top: 50%;
+        left: 2%;
+        background: none;
+        text-align: left;
+        padding: 10px
+    }
+
+    #hero-msg h1 {
+        font-size: 2.5rem;
+        font-weight: 700
+    }
+
+
+    /* Slide Show Animation */
+
+    .slide-show {
+        position: relative;
+        width: 100%;
+        height: 0;
+        padding-top: 56.25%;
+        /* 16:9 aspect ratio */
+        overflow: hidden;
+    }
+
+    .hero-slide {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        transition: opacity 0.5s ease-in-out;
+    }
+
+    .hero-slide.current {
+        opacity: 1;
+    }
+
+    /* Apply the animation to the slides */
+    .hero-slide {
+        animation: slideShowAnimation 15s infinite;
+    }
+
+    hr {
+        grid-column: 1/4
+    }
+
+    .forecast {
+        margin-top: 0;
+        grid-column: 2/4
+    }
+
+    .f-card {
+        max-width: 190px
+    }
+
+    #join {
+        top: 2rem;
+        right: 2rem
+    }
+
+    #menu {
+        display: none
+    }
+
+    .members {
+        grid-column: 1/4
+    }
+
+    .member-box .carousel {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center
+    }
+
+    .navigation {
+        display: flex;
+        flex-direction: row;
+        list-style: none
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 100%
+    }
+
+    .navigation li a {
+        text-align: center
+    }
+
+    footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 600px;
+        gap: 25px;
+
+        color: var(--paragraph-color-on-color);
+        background: var(--primary-color);
+
+        padding-bottom: 25px;
+        height: 800px
+    }
+
+    .contact-box {
+        grid-column: 2/3;
+        align-self: center
+    }
+
+    .copy-box {
+        grid-column: span 2;
+        justify-self: center;
+        width: 100%
+    }
+
+    .sidebar hr {
+        display: none
+    }
+
+    .sidebar {
+        gap: 10rem
+    }
+
+    .hover:hover {
+        box-shadow: 0 0 10px var(--accent2-color);
+        transition: .5s ease
+    }
+
+    #business {
+        margin: 0;
+        display: block
+    }
+
+    #discover-wrap:first-child hr {
+        display: none
+    }
+
+    #discover-wrap {
+        display: grid;
+        grid-template-columns: 330px auto;
+        gap: 5rem
+    }
+
+    #discover figure {
+        width: 100%;
+        max-width: 350px
+    }
+
+    #discover {
+        grid-column: 2/3
+    }
+
+    th,
+    td {
+        font-size: 1rem
+    }
+
+    .d-members.grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+        gap: 2rem
+    }
+
+    .form-container {
+        margin-top: 0
+    }
+
+    .members-box label {
+        display: inline-block
+    }
+
+    .members-box label:nth-child(3) {
+        margin-left: 15px
+    }
+
+    .d-members.list .card-img {
+        display: none
+    }
+
+    .d-members.list .card-content {
+        padding: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1.5fr 1fr 1fr;
+        gap: 2rem
+    }
+}

@@ -1,0 +1,124 @@
+{
+	"figures": [
+		{
+			"title": "Delicious Arepa",
+			"img": "images/Valera_00019.webp",
+			"desc": "Enjoy this delicious corn cake, a common food in Pampam."
+		},
+		{
+			"title": "Parrillada Valencia Style",
+			"img": "images/Valera_00020.webp",
+			"desc": "Savor the unique flavors of Valencia-style grilled meats with this mouth-watering dish."
+		},
+		{
+			"title": "Corn cake",
+			"img": "images/Valera_00021.webp",
+			"desc": "Taste the traditional corn cake, a common food in Pampanito."
+		},
+		{
+			"title": "Grilled Arepa",
+			"img": "images/Valera_00022.webp",
+			"desc": "Experience the delicious taste of grilled arepas, a popular food in San Pedro."
+		},
+		{
+			"title": "Mondongo",
+			"img": "images/Valera_00023.webp",
+			"desc": "Satisfy your hunger with this hearty dish of Mondongo, a beloved food in Estocal."
+		},
+		{
+			"title": "Arepa and Chorizo",
+			"img": "images/Valera_00024.webp",
+			"desc": "Indulge in the perfect combination of arepas and chorizo, a favorite dish in Trujillo."
+		},
+		{
+			"title": "San Rafael",
+			"img": "images/Valera_0001.webp",
+			"desc": "Explore the beautiful San Rafael, a landmark in Valera."
+		},
+		{
+			"title": "La cejita",
+			"img": "images/Valera_0002.webp",
+			"desc": "Admire the stunning views of La Cejita, a popular spot in Valera."
+		},
+		{
+			"title": "Valera",
+			"img": "images/Valera_0003.webp",
+			"desc": "Discover the vibrant city life of Valera through this stunning photo."
+		},
+		{
+			"title": "Valera Center",
+			"img": "images/Valera_0004.webp",
+			"desc": "Take a look at the bustling Valera Center, a hub of activity in the city."
+		},
+		{
+			"title": "Valera Conito",
+			"img": "images/Valera_0005.webp",
+			"desc": "Marvel at the beauty of Valera Conito, a breathtaking sight in Valera."
+		},
+		{
+			"title": "Valera Church",
+			"img": "images/Valera_0006.webp",
+			"desc": "Discover the historic Valera Church, a landmark in the city."
+		},
+		{
+			"title": "La Virgen",
+			"img": "images/Valera_00013.webp",
+			"desc": "Iconic statue of La Virgen, a symbol of Valera's faith and cultural heritage."
+		},
+		{
+			"title": "Park La Virgen",
+			"img": "images/Valera_00014.webp",
+			"desc": "Picturesque park with gardens and walking paths."
+		},
+		{
+			"title": "La Virgen Lower View",
+			"img": "images/Valera_00015.webp",
+			"desc": "Stunning view of La Virgen statue from below."
+		},
+		{
+			"title": "La Virgen Church",
+			"img": "images/Valera_00016.webp",
+			"desc": "Historic church and beloved landmark in Valera."
+		},
+		{
+			"title": "La Virgen View",
+			"img": "images/Valera_00017.webp",
+			"desc": "Breathtaking panoramic view of Valera and surroundings from La Virgen viewpoint."
+		},
+		{
+			"title": "La Virgen and Dove",
+			"img": "images/Valera_00018.webp",
+			"desc": "Beautiful photo of the peaceful interaction between La Virgen statue and a dove."
+		},
+				{
+			"title": "San Juan Bautista Art",
+			"img": "images/Valera_0007.webp",
+			"desc": "Artistic depiction of San Juan Bautista, a central figure in Valera's cultural celebrations."
+		},
+		{
+			"title": "San Juan Capilla",
+			"img": "images/Valera_0008.webp",
+			"desc": "Charming chapel dedicated to San Juan Bautista, located in the heart of Valera."
+		},
+		{
+			"title": "San Juan Tambores",
+			"img": "images/Valera_0009.webp",
+			"desc": "Energetic drumming performances that accompany Valera's lively San Juan celebrations."
+		},
+		{
+			"title": "San Juan Fireworks",
+			"img": "images/Valera_00010.webp",
+			"desc": "Spectacular fireworks display that lights up the Plaza of Pampanito during San Juan festivities."
+		},
+		{
+			"title": "San Juan Dances",
+			"img": "images/Valera_00011.webp",
+			"desc": "Vibrant and colorful traditional dances performed during Valera's San Juan celebrations."
+		},
+		{
+			"title": "San Juan Statue",
+			"img": "images/Valera_00012.webp",
+			"desc": "Statue of San Juan Bautista, a beloved icon of Valera's cultural heritage and religious traditions."
+		}
+	]
+}

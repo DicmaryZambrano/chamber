@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valera Chamber of Commerce Directory</title>
+    <meta name="author" content="Dicmary Zambrano">
+    <meta name="description" content="The Valera Chamber of Commerce Directory Page, meet all the members of the chamber">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter&family=PT+Sans&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico">
+    <meta property="og:title" content="Valera Chamber of Commerce Directory Page, member spotlights">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://dicmaryzambrano.github.io/wdd230/chamber/index.html">
+    <meta property="og:image" content="https://i.imgur.com/IbPz0EG.png">
+</head>
+
+<body>
+    <div class="wrap">
+        <header>
+            <a href="index.html" class="logo-link" draggable="false">
+                <picture>
+                    <source media="(max-width: 900px)" srcset="images/horse_logo.webp" width="1" height="1">
+                    <img class="logo" src="images/chamber_logo_color.webp" alt="Valera Chamber of Commerce Logo"
+                    draggable="false" width="4" height="1">
+                </picture>
+            </a>
+            <a id="join" href="join.html">Join</a>
+        </header>
+        <nav>
+            <button title="unfold menu" id="menu"></button>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="#" class="active">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+            </ul>
+        </nav>
+        <div id="hero">
+            <picture>
+                <source media="(max-width: 500px)" srcset="images/hero-small.webp">
+                <source media="(max-width: 1000px)" srcset="images/hero-medium.webp">
+                <img src="images/hero-large.webp" alt="View of the center of valera" width="16" height="9">
+            </picture>
+            <div class="overlay"></div>
+            <div class="darken"></div>
+            <section id="hero-msg">
+                <h1>
+                    The Valera Chamber of Commerce Member Directory
+                </h1>
+                <h2>
+                    Meet all the wonderfull members that are part of the chamber
+                </h2>
+                <div class="button-box">
+                    <a class="join-button" href="join.html">Join Us</a>
+                </div>
+            </section>
+            </div>
+        </div>
+        <main id="directory">
+            <hr>
+            <section class="members-box">
+                <h2>Member Directory</h2>
+
+                <label for="toggle-button">
+                    Toggle View: 
+                    <button title="togggle view" id="toggle-button" class="grid"></button>
+                </label>
+
+                <label for="membership-filter">
+                    Sort By: 
+                    <select id="membership-filter">
+                        <option value="">All Memberships</option>
+                        <option value="np">NP</option>
+                        <option value="bronze">Bronze</option>
+                        <option value="silver">Silver</option>
+                        <option value="gold">Gold</option>
+                    </select>
+                </label>
+                
+                <div class="d-members grid">
+
+                </div>
+            </section>
+        </main>
+    <footer>
+        <div class="link-box">
+            <a href="index.html" class="foot-logo" draggable="false">
+                <img src="images/horse_logo.webp" alt="Valera Chamber of Commerce Logo" draggable="false" width="1" height="1" loading="lazy">
+            </a>
+            <h2>
+                The Valera Chamber of<br>Commerce Founded<br>19XX - 20XX
+            </h2>
+            <ul class="foot-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="#">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+            </ul>
+        </div>
+        <div class="contact-box">
+            <p>contact: chamberofcommerce@valera.com <br> location: Valera La Morita Avenita Principal departamento 259
+                <br>
+                number:+58 999 999 999
+            </p>
+            <ul class="social">
+                <li><a href="https://www.facebook.com"><img src="images/facebook.svg" alt="facebook" width="1" height="1" loading="lazy"></a></li>
+                <li><a href="https://www.whatsapp.com"><img src="images/whatsapp.svg" alt="whatsapp" width="1" height="1" loading="lazy"></a></li>
+                <li><a href="https://www.youtube.com"><img src="images/youtube.svg" alt="youtube" width="1" height="1" loading="lazy"></a></li>
+                <li><a href="https://www.linkedin.com"><img src="images/linkedin.svg" alt="linkedin" width="1" height="1" loading="lazy"></a></li>
+            </ul>
+        </div>
+        <div class="copy-box">
+            <hr>
+            <p>&copy; <span id="year"></span> Valera Chamber of Commerce<br> Dicmary Zambrano Venezuela <br>WDD 230
+                Project</p>
+
+            <p id="lastModified"></p>
+        </div>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/hamburgerMenu.js"></script>
+    <script src="scripts/addMembers.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Valera Chamber of Commerce</title>
+    <meta name="author" content="Dicmary Zambrano">
+    <meta name="description" content="The Valera Chamber of Commerce home page">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter&family=PT+Sans&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico">
+    <meta property="og:title" content="Valera Chamber of Commerce home page">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://dicmaryzambrano.github.io/wdd230/chamber/index.html">
+    <meta property="og:image" content="https://i.imgur.com/IbPz0EG.png">
+</head>
+
+<body>
+    <div class="wrap">
+        <header>
+            <a href="index.html" class="logo-link" draggable="false">
+                <picture>
+                    <source media="(max-width: 900px)" srcset="images/horse_logo.webp" width="1" height="1">
+                    <img class="logo" src="images/chamber_logo_color.webp" alt="Valera Chamber of Commerce Logo"
+                    draggable="false" width="4" height="1">
+                </picture>
+            </a>
+            <a id="join" href="join.html">Join</a>
+        </header>
+        <nav>
+            <button title="unfold menu" id="menu"></button>
+            <ul class="navigation">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+            </ul>
+        </nav>
+        <div id="hero">
+            <div class="slide-show">
+                <picture class="hero-slide current">
+                    <source media="(max-width: 500px)" srcset="images/techos-small.webp">
+                    <source media="(max-width: 1000px)" srcset="images/techos-medium.webp">
+                    <img src="images/techos-large.webp" alt="Techos de la ULA" width="16" height="9">
+                </picture>
+                <picture class="hero-slide">
+                    <source media="(max-width: 500px)" srcset="images/salones-small.webp">
+                    <source media="(max-width: 1000px)" srcset="images/salones-medium.webp">
+                    <img src="images/salones-large.webp" alt="Salones de la ULA" width="16" height="9">
+                </picture>
+                <picture class="hero-slide">
+                    <source media="(max-width: 500px)" srcset="images/obelisco-small.webp">
+                    <source media="(max-width: 1000px)" srcset="images/obelisco-medium.webp">
+                    <img src="images/obelisco-large.webp" alt="Obelisco de la ULA" width="16" height="9">
+                </picture>
+            </div>
+            <div class="overlay"></div>
+            <div class="darken"></div>
+            <section id="hero-msg">
+                <h1>
+                    The Valera Chamber of Commerce is looking for New Members
+                </h1>
+                <h2>
+                    Are you a growing business? you would be a perfect member
+                </h2>
+                <div class="button-box">
+                    <a class="join-button" href="join.html">Join Us</a>
+                </div>
+            </section>
+            </div>
+        </div>
+        <main id="home">
+            <hr>
+            <h2>Latests Events and Fund Raisers</h2>
+            <section class="events">
+                <div class="event">
+                    <img src="images/cocoa.webp" alt="cocoa bag" draggable="false" width="16" height="9">
+                    <div class="container">
+                        <h3>Biggest Cocoa Convention in Los Roques</h3>
+                        <p>
+                            Attention all chocolate lovers and industry professionals! 
+                            The biggest Cocoa Convention in Los Roques is coming up, and 
+                            you won't want to miss it. This event is a celebration of all 
+                            things cocoa, from the bean to the finished product.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="event">
+                    <img src="images/ecommerce.webp" alt="ecommerce photo" draggable="false" width="16" height="9">
+                    <div class="container">
+                        <h3>E-Commerce event</h3>
+                        <p>
+                            Join us for an exciting E-Commerce event designed to help local 
+                            businesses in the Valera area thrive in the digital marketplace. 
+                            With the growing importance of online sales, it's critical for 
+                            businesses to have a strong online presence and the tools to effectively 
+                            promote and sell their products.
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="event">
+                    <img src="images/office2.webp" alt="a skyscraper from caracas" draggable="false" width="16" height="9">
+                    <div class="container">
+                        <h3>New Fundraiser for local businesses</h3>
+                        <p>
+                            We are excited to announce a new fundraiser to support 
+                            our local businesses in the Valera area. With the ongoing 
+                            challenges of the pandemic, it's more important than ever to 
+                            come together and support our community.
+                        </p>
+                    </div>
+                </div>
+
+            </section>
+            <section id="banner-container">
+                <hr>
+                <div class="parallax">
+                    <button title="close" id="close">X</button>
+
+                    <div class="banner">
+                      <h2>The Valera Chamber of Commerce</h2>
+                      <h3>Meet and Greet</h3>
+                  
+                      <p>Wednesday at 7:00 PM</p>
+                  
+                      <p>Join us for an evening of networking and connecting with your local business community. This is a great opportunity to meet other business owners and professionals in the Valera area.</p>
+                  
+                      <p>We hope to see you there!</p>
+                    </div>
+                  
+                  </div>
+            </section>
+            <hr>
+            <section class="weather">
+                <h2>Weather Dashboard</h2>
+                <div id="w-dashboard">
+
+                </div>
+            </section>
+            <section class="weather forecast">
+                <div id="forecast">
+                    <h2>5-Day Forecast</h2>
+                    <ul id="weather-cards">
+
+                    </ul>
+                </div>
+            </section>
+            <hr>
+            <h2 class="h2-color">Member Spotlights of the Valera Chamber</h2>
+            <section class="members">
+                <p>
+                    Welcome to our Member Spotlights section, where we feature some of the outstanding businesses 
+                    that are part of our Valera Chamber community. This month, we are proud to highlight the following 
+                    businesses:
+                </p>
+                <div class="button-box">
+                    <a class="join-button" href="join.html">Join Us</a>
+                </div>
+
+                <div class="spotlights">
+                </div>
+            </section>
+        </main>
+    <footer>
+        <div class="link-box">
+            <a href="index.html" class="foot-logo" draggable="false">
+                <img src="images/horse_logo.webp" alt="Valera Chamber of Commerce Logo" draggable="false" width="1" height="1" loading="lazy">
+            </a>
+            <h2>
+                The Valera Chamber of<br>Commerce Founded<br>19XX - 20XX
+            </h2>
+            <ul class="foot-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+            </ul>
+        </div>
+        <div class="contact-box">
+            <p>contact: chamberofcommerce@valera.com <br> location: Valera La Morita Avenita Principal departamento 259
+                <br>
+                number:+58 999 999 999
+            </p>
+            <ul class="social">
+                <li><a href="https://www.facebook.com"><img src="images/facebook.svg" alt="facebook" width="1" height="1" loading="lazy"></a></li>
+                <li><a href="https://www.whatsapp.com"><img src="images/whatsapp.svg" alt="whatsapp" width="1" height="1" loading="lazy"></a></li>
+                <li><a href="https://www.youtube.com"><img src="images/youtube.svg" alt="youtube" width="1" height="1" loading="lazy"></a></li>
+                <li><a href="https://www.linkedin.com"><img src="images/linkedin.svg" alt="linkedin" width="1" height="1" loading="lazy"></a></li>
+            </ul>
+        </div>
+        <div class="copy-box">
+            <hr>
+            <p>&copy; <span id="year"></span> Valera Chamber of Commerce<br> Dicmary Zambrano Venezuela <br>WDD 230
+                Project</p>
+
+            <p id="lastModified"></p>
+        </div>
+    </footer>
+    <script src="scripts/addWeather.js"></script>
+    <script src="scripts/addRandomMembers.js"></script>
+    <script src="scripts/getBanner.js"></script>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/hamburgerMenu.js"></script>
+    <script src="scripts/slideShow.js"></script>
+</body>
+
+</html>

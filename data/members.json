@@ -1,0 +1,129 @@
+{
+	"members": [{
+			"name": "InnovaCorp",
+			"address": "Calle 2, Edificio Innovación, Piso 3, Oficina 301",
+			"phone": "+58 274 555 5555",
+			"website": "innovacorp.com",
+			"logo": "images/innovacorp.webp",
+			"membership": "NP",
+			"desc": "InnovaCorp specializes in providing innovative IT solutions for businesses in Valera and beyond."
+		},
+		{
+			"name": "Valera Marketing Solutions",
+			"address": "Av. Bolivar Este, Edificio Valencia, Piso 8, Oficina 804",
+			"phone": "+58 274 555 5556",
+			"website": "valeramarketingsolutions.com",
+			"logo": "images/valeramarket.webp",
+			"membership": "Gold",
+			"desc": "Valera Marketing Solutions is a full-service marketing agency that specializes in helping businesses in Valera and throughout Venezuela to reach their full potential."
+		},
+		{
+			"name": "Global Business Consulting",
+			"address": "Calle 10, Edificio El Parque, Piso 3, Oficina 302",
+			"phone": "+58 274 555 5557",
+			"website": "globalbusinessconsulting.com",
+			"logo": "images/consultant.webp",
+			"membership": "Silver",
+			"desc": "Global Business Consulting is a trusted provider of consulting services for businesses in the Valera area."
+		},
+		{
+			"name": "Valera Accounting Services",
+			"address": "Calle 12, Edificio Las Acacias, Piso 4, Oficina 401",
+			"phone": "+58 274 555 5558",
+			"website": "valeraaccountingservices.com",
+			"logo": "images/accounting.webp",
+			"membership": "Bronze",
+			"desc": "Valera Accounting Services is a trusted provider of accounting and bookkeeping services for businesses in the Valera area."
+		},
+		{
+			"name": "TechVal",
+			"address": "Av. Bolivar Oeste, Edificio TechVal, Piso 5, Oficina 501",
+			"phone": "+58 274 555 5559",
+			"website": "techval.com",
+			"logo": "images/teachva.webp",
+			"membership": "NP",
+			"desc": "TechVal is a company that specializes in providing comprehensive IT solutions for businesses in the Valera area."
+		},
+		{
+			"name": "Valera Legal Services",
+			"address": "Calle 6, Edificio La Cascada, Piso 2, Oficina 202",
+			"phone": "+58 274 555 5560",
+			"website": "valeralegalservices.com",
+			"logo": "images/legalval.webp",
+			"membership": "Silver",
+			"desc": "Valera Legal Services is a trusted provider of legal services for businesses in the Valera area."
+		},
+		{
+			"name": "Valera Business Solutions",
+			"address": "Calle 4, Edificio Valencia, Piso 6, Oficina 601",
+			"phone": "+58 274 555 5561",
+			"website": "valerabusinesssolutions.com",
+			"logo": "images/solutions.webp",
+			"membership": "Gold",
+			"desc": "Valera Business Solutions is a company that specializes in providing innovative solutions for businesses in theValera area."
+		},
+		{
+			"name": "Valera HR Services",
+			"address": "Calle 8, Edificio Las Acacias, Piso 5, Oficina 501",
+			"phone": "+58 274 555 5562",
+			"website": "valerahrservices.com",
+			"logo": "images/hrval.webp",
+			"membership": "Bronze",
+			"desc": "Valera HR Services is a trusted provider of human resources services for businesses in the Valera area."
+		},
+		{
+			"name": "VerankonTech",
+			"address": "Calle Principal #406",
+			"phone": "+58 274 123 4567",
+			"website": "verankontech.com",
+			"logo": "images/verankontech.webp",
+			"membership": "Silver",
+			"desc": "VerankonTech specializes in providing cutting-edge IT solutions for businesses."
+			},
+			{
+			"name": "Empresa Valera International",
+			"address": "Calle Central #2002",
+			"phone": "+58 274 321 4567",
+			"website":"empresavailera.com",
+			"logo": "images/empresavalera.webp",
+			"membership": "Gold",
+			"desc": "EmpresaValera International provides comprehensive consulting services for multi-national businesses operating in Valera."
+			},
+			{
+			"name": "Gerente La Cejita",
+			"address": "Av. La Libertad #4321",
+			"phone": "+58 274 987 4567",
+			"website": "gerentelacejita.com",
+			"logo": "images/gerentelacejita.webp",
+			"membership": "Bronze",
+			"desc": "GerenteLaCejita is a full-service business consulting firm serving the La Cejita area."
+			},
+			{
+			"name": "Contalora Final SA",
+			"address": "Calle Bolivar #1201",
+			"phone": "+58 274 567 8790 ",
+			"website": "contalorafinal.com",
+			"logo": "images/contalorafinal.webp",
+			"membership": "NP",
+			"desc": "ContaloraFinal SA provides comprehensive accounting and auditing services for businesses."
+			},
+			{
+			"name": "Servicios Juridicos Valera",
+			"address": "Av. La Libertad #1001",
+			"phone": "+58 274 789 4568",
+			"website": "serviciosjuridicosvalera.com ",
+			"logo": "images/serviciosjuridicosvalera.webp",
+			"membership": "Silver",
+			"desc": "ServiciosJuridicosValera is a full-service law firm serving the Valera area."
+			},
+			{
+			"name": "TechVal Net SA",
+			"address": "Calle La Sierra #1302",
+			"phone": "+58 274 890 1123",
+			"website": "techvalnet.com",
+			"logo": "images/techvalnet.webp",
+			"membership": "Gold",
+			"desc": "TechVal Net SA provides innovative IT solutions and services for businesses."
+			}
+	]
+}
