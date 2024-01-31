@@ -43,11 +43,23 @@
             </ul>
         </nav>
             <div id="hero">
-                <picture>
-                    <source media="(max-width: 500px)" srcset="images/hero-small.webp">
-                    <source media="(max-width: 1000px)" srcset="images/hero-medium.webp">
-                    <img src="images/hero-large.webp" alt="View of the center of valera" width="16" height="9">
-                </picture>
+                <div class="slide-show">
+                    <picture class="hero-slide current">
+                        <source media="(max-width: 500px)" srcset="images/techos-small.webp">
+                        <source media="(max-width: 1000px)" srcset="images/techos-medium.webp">
+                        <img src="images/techos-large.webp" alt="Techos de la ULA" width="16" height="9">
+                    </picture>
+                    <picture class="hero-slide">
+                        <source media="(max-width: 500px)" srcset="images/salones-small.webp">
+                        <source media="(max-width: 1000px)" srcset="images/salones-medium.webp">
+                        <img src="images/salones-large.webp" alt="Salones de la ULA" width="16" height="9">
+                    </picture>
+                    <picture class="hero-slide">
+                        <source media="(max-width: 500px)" srcset="images/obelisco-small.webp">
+                        <source media="(max-width: 1000px)" srcset="images/obelisco-medium.webp">
+                        <img src="images/obelisco-large.webp" alt="Obelisco de la ULA" width="16" height="9">
+                    </picture>
+                </div>
                 <div class="overlay"></div>
                 <div class="darken"></div>
                 <section id="hero-msg">
@@ -102,6 +114,7 @@
     </footer>
     <script src="scripts/getDates.js"></script>
     <script src="scripts/hamburgerMenu.js"></script>
+    <script src="scripts/slideShow.js"></script>
 </body>
 
 </html>
